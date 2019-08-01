@@ -256,10 +256,10 @@ html {
 *, *::before, *::after {
   box-sizing: inherit; }
 
-img {
-/* display: block; */
-/* align-content: center; */
-}
+/* img {
+display: block;
+align-content: center;
+} */
 
 .imgblock img {
   display: block;
@@ -387,7 +387,9 @@ pre {
     font-size: 1em;
     padding: 0; }
 
-table td,
+table td {
+  text-align: center;
+}
 table th {
   text-align: left;
   vertical-align: top; }
@@ -4592,7 +4594,25 @@ body.has-navbar-fixed-bottom {
   justify-content: center;
 }
 
+/* img:hover{
+  background: #FFA000;
+} */
+
 td:nth-child(1) {
+  min-width: 100px;
+  max-width: 100px;
+}
+
+td:nth-child(2) {
+  min-width: 250px;
+  max-width: 416px;
+}
+
+th:nth-child(1n) {
+  text-align: center;
+}
+
+td:nth-child(1n) {
   vertical-align: middle;
  } 
 
