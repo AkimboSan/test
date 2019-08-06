@@ -4589,6 +4589,19 @@ body.has-navbar-fixed-bottom {
   
 }
 
+/* .dropdown {
+  box-shadow: 0px 5px 8px #777;
+  display: none;
+  left: 0;
+  position: absolute;
+  top: 100%;
+  z-index: 1000;
+}
+
+.dropdown.is-open {
+  display: block;
+} */
+
 .tablcenter {
   display: flex;
   justify-content: center;
